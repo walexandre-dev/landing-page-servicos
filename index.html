@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnowsoft - Soluções Web Modernas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Tecnow<span>Soft</span>.</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="ph ph-list"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato" class="btn-primary">Fale Conosco</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Transformamos ideias em <span class="gradient-text">experiências digitais</span>.</h1>
+                <p>Desenvolvimento web de alta performance com design responsivo e tecnologias de ponta.</p>
+                <div class="hero-buttons">
+                    <a href="#servicos" class="btn-primary">Nossos Serviços</a>
+                    <a href="#portfolio" class="btn-outline">Ver Portfólio</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="abstract-shape"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que fazemos</h2>
+                <p>Soluções completas para sua presença online.</p>
+            </div>
+            <div class="services-grid">
+                <div class="card">
+                    <i class="ph ph-desktop"></i>
+                    <h3>Web Design</h3>
+                    <p>Layouts modernos, intuitivos e totalmente adaptáveis a dispositivos móveis.</p>
+                </div>
+                <div class="card">
+                    <i class="ph ph-code"></i>
+                    <h3>Desenvolvimento</h3>
+                    <p>Sites rápidos e seguros utilizando HTML5, CSS3 e JavaScript moderno.</p>
+                </div>
+                <div class="card">
+                    <i class="ph ph-rocket-launch"></i>
+                    <h3>SEO & Performance</h3>
+                    <p>Otimização para motores de busca para colocar seu site no topo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="section-header">
+            <h2>Portfólio Recente</h2>
+            <p>Veja o que temos desenvolvido.</p>
+        </div>
+
+        <div class="carousel-container">
+            <button class="nav-btn prev-btn"><i class="ph ph-caret-left"></i></button>
+            
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    <li class="carousel-slide current-slide">
+                        <div class="project-card">
+                            <div class="card-image gradient-1">
+                                <i class="ph ph-coffee"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>App de Gestão</h3>
+                                <p>Dashboard financeiro com React e Node.js.</p>
+                                <div class="tech-tags">
+                                    <span>React</span>
+                                    <span>Node</span>
+                                </div>
+                                <a href="#" class="btn-link">Ver Projeto <i class="ph ph-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="carousel-slide">
+                        <div class="project-card">
+                            <div class="card-image gradient-2">
+                                <i class="ph ph-shopping-cart"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>E-commerce</h3>
+                                <p>Loja virtual completa com integração de pagamento.</p>
+                                <div class="tech-tags">
+                                    <span>Shopify</span>
+                                    <span>Liquid</span>
+                                </div>
+                                <a href="#" class="btn-link">Ver Projeto <i class="ph ph-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="carousel-slide">
+                        <div class="project-card">
+                            <div class="card-image gradient-3">
+                                <i class="ph ph-game-controller"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Landing Page Gamer</h3>
+                                <p>Página de alta conversão para lançamento de jogos.</p>
+                                <div class="tech-tags">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                </div>
+                                <a href="#" class="btn-link">Ver Projeto <i class="ph ph-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                     <li class="carousel-slide">
+                        <div class="project-card">
+                            <div class="card-image gradient-1">
+                                <i class="ph ph-buildings"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Imobiliária</h3>
+                                <p>Sistema de agendamento e vitrine de imóveis.</p>
+                                <div class="tech-tags">
+                                    <span>Vue.js</span>
+                                    <span>Firebase</span>
+                                </div>
+                                <a href="#" class="btn-link">Ver Projeto <i class="ph ph-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="nav-btn next-btn"><i class="ph ph-caret-right"></i></button>
+        </div>
+        
+        <div class="carousel-nav">
+            <button class="carousel-indicator current-slide"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DevStudio. Todos os direitos reservados.</p>
+            <div class="socials">
+                <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                <a href="#"><i class="ph ph-github-logo"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
