@@ -14,6 +14,24 @@
     --radius: 8px;
 }
 
+html {
+    /* 1. Ativa a rolagem suave nativa do navegador */
+    scroll-behavior: smooth;
+
+    /* 2. Impede que o menu fixo cubra o título da seção ao rolar */
+    /* Usa a mesma altura que definimos para o header (80px) */
+    scroll-padding-top: var(--header-height);
+}
+
+/* --- Bônus: Sensação de "Clique" (Feedback Tátil) --- */
+/* Isso faz qualquer botão ou link dar uma leve "afundada" ao ser clicado */
+a:active, 
+button:active, 
+.card:active {
+    transform: scale(0.98); /* Diminui para 98% do tamanho original */
+    transition: transform 0.1s; /* Acontece bem rápido */
+}
+
 * {
     margin: 0;
     padding: 0;
